@@ -1,0 +1,3780 @@
+{
+  "schema": "client_dataset_frame/v1",
+  "tick": 120,
+  "time_ms": 1795135484393,
+  "observation": {
+    "own": {
+      "position": [
+        3.5,
+        -48,
+        24.5
+      ],
+      "velocity": [
+        0,
+        -0.0784000015258789,
+        0
+      ],
+      "yaw": -90,
+      "pitch": 0,
+      "health": 20,
+      "absorption": 0,
+      "food": 20,
+      "saturation": 5,
+      "grounded": false,
+      "fall_distance": 0,
+      "sprinting": false,
+      "attack_cooldown": 0,
+      "using_item": false,
+      "item_use_ticks": 0,
+      "blocking": false,
+      "held_item_cooldown": 0,
+      "selected_slot": 0,
+      "inventory": [
+        {
+          "enchanted": false,
+          "damage": 0,
+          "item": "minecraft:bow",
+          "slot": 0,
+          "crossbow_charged": false,
+          "max_damage": 384,
+          "count": 1
+        },
+        {
+          "enchanted": false,
+          "damage": 0,
+          "item": "minecraft:arrow",
+          "slot": 1,
+          "crossbow_charged": false,
+          "max_damage": 0,
+          "count": 64
+        },
+        {
+          "enchanted": false,
+          "damage": 0,
+          "item": "minecraft:cooked_beef",
+          "slot": 2,
+          "crossbow_charged": false,
+          "max_damage": 0,
+          "count": 16
+        },
+        {
+          "enchanted": false,
+          "damage": 0,
+          "item": "minecraft:leather_boots",
+          "slot": 36,
+          "crossbow_charged": false,
+          "max_damage": 65,
+          "count": 1
+        },
+        {
+          "enchanted": false,
+          "damage": 0,
+          "item": "minecraft:leather_leggings",
+          "slot": 37,
+          "crossbow_charged": false,
+          "max_damage": 75,
+          "count": 1
+        },
+        {
+          "enchanted": false,
+          "damage": 0,
+          "item": "minecraft:leather_chestplate",
+          "slot": 38,
+          "crossbow_charged": false,
+          "max_damage": 80,
+          "count": 1
+        },
+        {
+          "enchanted": false,
+          "damage": 0,
+          "item": "minecraft:leather_helmet",
+          "slot": 39,
+          "crossbow_charged": false,
+          "max_damage": 55,
+          "count": 1
+        }
+      ],
+      "effects": []
+    },
+    "loaded_entities": [],
+    "dimension": "minecraft:overworld",
+    "crosshair": {
+      "type": "miss",
+      "position": [
+        8,
+        -46.37999999523163,
+        24.5
+      ],
+      "block": [
+        8,
+        -47,
+        24
+      ],
+      "face": "east"
+    },
+    "local_blocks": [
+      {
+        "position": [
+          -1,
+          -49,
+          20
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -49,
+          21
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -49,
+          22
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -49,
+          23
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -49,
+          24
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -49,
+          25
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -49,
+          26
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -49,
+          27
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -49,
+          28
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -48,
+          20
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -48,
+          21
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -48,
+          22
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -48,
+          23
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -48,
+          24
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -48,
+          25
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -48,
+          26
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -48,
+          27
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -48,
+          28
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -47,
+          20
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -47,
+          21
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -47,
+          22
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -47,
+          23
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -47,
+          24
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -47,
+          25
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -47,
+          26
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -47,
+          27
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -47,
+          28
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -46,
+          20
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -46,
+          21
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -46,
+          22
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -46,
+          23
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -46,
+          24
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -46,
+          25
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -46,
+          26
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -46,
+          27
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -46,
+          28
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -45,
+          20
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -45,
+          21
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -45,
+          22
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -45,
+          23
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -45,
+          24
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -45,
+          25
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -45,
+          26
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -45,
+          27
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          -1,
+          -45,
+          28
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -49,
+          20
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -49,
+          21
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -49,
+          22
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -49,
+          23
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -49,
+          24
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -49,
+          25
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -49,
+          26
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -49,
+          27
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -49,
+          28
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -48,
+          20
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -48,
+          21
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -48,
+          22
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -48,
+          23
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -48,
+          24
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -48,
+          25
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -48,
+          26
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -48,
+          27
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -48,
+          28
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -47,
+          20
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -47,
+          21
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -47,
+          22
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -47,
+          23
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -47,
+          24
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -47,
+          25
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -47,
+          26
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -47,
+          27
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -47,
+          28
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -46,
+          20
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -46,
+          21
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -46,
+          22
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -46,
+          23
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -46,
+          24
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -46,
+          25
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -46,
+          26
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -46,
+          27
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -46,
+          28
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -45,
+          20
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -45,
+          21
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -45,
+          22
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -45,
+          23
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -45,
+          24
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -45,
+          25
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -45,
+          26
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -45,
+          27
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          0,
+          -45,
+          28
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -49,
+          20
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -49,
+          21
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -49,
+          22
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -49,
+          23
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -49,
+          24
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -49,
+          25
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -49,
+          26
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -49,
+          27
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -49,
+          28
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -48,
+          20
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -48,
+          21
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -48,
+          22
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -48,
+          23
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -48,
+          24
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -48,
+          25
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -48,
+          26
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -48,
+          27
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -48,
+          28
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -47,
+          20
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -47,
+          21
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -47,
+          22
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -47,
+          23
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -47,
+          24
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -47,
+          25
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -47,
+          26
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -47,
+          27
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -47,
+          28
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -46,
+          20
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -46,
+          21
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -46,
+          22
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -46,
+          23
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -46,
+          24
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -46,
+          25
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -46,
+          26
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -46,
+          27
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -46,
+          28
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -45,
+          20
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -45,
+          21
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -45,
+          22
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -45,
+          23
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -45,
+          24
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -45,
+          25
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -45,
+          26
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -45,
+          27
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          1,
+          -45,
+          28
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -49,
+          20
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -49,
+          21
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -49,
+          22
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -49,
+          23
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -49,
+          24
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -49,
+          25
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -49,
+          26
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -49,
+          27
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -49,
+          28
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -48,
+          20
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -48,
+          21
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -48,
+          22
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -48,
+          23
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -48,
+          24
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -48,
+          25
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -48,
+          26
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -48,
+          27
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -48,
+          28
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -47,
+          20
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -47,
+          21
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -47,
+          22
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -47,
+          23
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -47,
+          24
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -47,
+          25
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -47,
+          26
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -47,
+          27
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -47,
+          28
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -46,
+          20
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -46,
+          21
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -46,
+          22
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -46,
+          23
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -46,
+          24
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -46,
+          25
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -46,
+          26
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -46,
+          27
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -46,
+          28
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -45,
+          20
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -45,
+          21
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -45,
+          22
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -45,
+          23
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -45,
+          24
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -45,
+          25
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -45,
+          26
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -45,
+          27
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          2,
+          -45,
+          28
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -49,
+          20
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -49,
+          21
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -49,
+          22
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -49,
+          23
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -49,
+          24
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -49,
+          25
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -49,
+          26
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -49,
+          27
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -49,
+          28
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -48,
+          20
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -48,
+          21
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -48,
+          22
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -48,
+          23
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -48,
+          24
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -48,
+          25
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -48,
+          26
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -48,
+          27
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -48,
+          28
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -47,
+          20
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -47,
+          21
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -47,
+          22
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -47,
+          23
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -47,
+          24
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -47,
+          25
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -47,
+          26
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -47,
+          27
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -47,
+          28
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -46,
+          20
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -46,
+          21
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -46,
+          22
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -46,
+          23
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -46,
+          24
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -46,
+          25
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -46,
+          26
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -46,
+          27
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -46,
+          28
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -45,
+          20
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -45,
+          21
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -45,
+          22
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -45,
+          23
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -45,
+          24
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -45,
+          25
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -45,
+          26
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -45,
+          27
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          3,
+          -45,
+          28
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -49,
+          20
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -49,
+          21
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -49,
+          22
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -49,
+          23
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -49,
+          24
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -49,
+          25
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -49,
+          26
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -49,
+          27
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -49,
+          28
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -48,
+          20
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -48,
+          21
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -48,
+          22
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -48,
+          23
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -48,
+          24
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -48,
+          25
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -48,
+          26
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -48,
+          27
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -48,
+          28
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -47,
+          20
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -47,
+          21
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -47,
+          22
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -47,
+          23
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -47,
+          24
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -47,
+          25
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -47,
+          26
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -47,
+          27
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -47,
+          28
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -46,
+          20
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -46,
+          21
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -46,
+          22
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -46,
+          23
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -46,
+          24
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -46,
+          25
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -46,
+          26
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -46,
+          27
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -46,
+          28
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -45,
+          20
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -45,
+          21
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -45,
+          22
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -45,
+          23
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -45,
+          24
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -45,
+          25
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -45,
+          26
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -45,
+          27
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          4,
+          -45,
+          28
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -49,
+          20
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -49,
+          21
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -49,
+          22
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -49,
+          23
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -49,
+          24
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -49,
+          25
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -49,
+          26
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -49,
+          27
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -49,
+          28
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -48,
+          20
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -48,
+          21
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -48,
+          22
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -48,
+          23
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -48,
+          24
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -48,
+          25
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -48,
+          26
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -48,
+          27
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -48,
+          28
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -47,
+          20
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -47,
+          21
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -47,
+          22
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -47,
+          23
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -47,
+          24
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -47,
+          25
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -47,
+          26
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -47,
+          27
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -47,
+          28
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -46,
+          20
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -46,
+          21
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -46,
+          22
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -46,
+          23
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -46,
+          24
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -46,
+          25
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -46,
+          26
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -46,
+          27
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -46,
+          28
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -45,
+          20
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -45,
+          21
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -45,
+          22
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -45,
+          23
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -45,
+          24
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -45,
+          25
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -45,
+          26
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -45,
+          27
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          5,
+          -45,
+          28
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -49,
+          20
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -49,
+          21
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -49,
+          22
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -49,
+          23
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -49,
+          24
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -49,
+          25
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -49,
+          26
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -49,
+          27
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -49,
+          28
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -48,
+          20
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -48,
+          21
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -48,
+          22
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -48,
+          23
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -48,
+          24
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -48,
+          25
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -48,
+          26
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -48,
+          27
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -48,
+          28
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -47,
+          20
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -47,
+          21
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -47,
+          22
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -47,
+          23
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -47,
+          24
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -47,
+          25
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -47,
+          26
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -47,
+          27
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -47,
+          28
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -46,
+          20
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -46,
+          21
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -46,
+          22
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -46,
+          23
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -46,
+          24
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -46,
+          25
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -46,
+          26
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -46,
+          27
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -46,
+          28
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -45,
+          20
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -45,
+          21
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -45,
+          22
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -45,
+          23
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -45,
+          24
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -45,
+          25
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -45,
+          26
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -45,
+          27
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          6,
+          -45,
+          28
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -49,
+          20
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -49,
+          21
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -49,
+          22
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -49,
+          23
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -49,
+          24
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -49,
+          25
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -49,
+          26
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -49,
+          27
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -49,
+          28
+        ],
+        "block": "minecraft:stone",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -48,
+          20
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -48,
+          21
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -48,
+          22
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -48,
+          23
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -48,
+          24
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -48,
+          25
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -48,
+          26
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -48,
+          27
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -48,
+          28
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -47,
+          20
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -47,
+          21
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -47,
+          22
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -47,
+          23
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -47,
+          24
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -47,
+          25
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -47,
+          26
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -47,
+          27
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -47,
+          28
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -46,
+          20
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -46,
+          21
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -46,
+          22
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -46,
+          23
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -46,
+          24
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -46,
+          25
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -46,
+          26
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -46,
+          27
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -46,
+          28
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -45,
+          20
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -45,
+          21
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -45,
+          22
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -45,
+          23
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -45,
+          24
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -45,
+          25
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -45,
+          26
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -45,
+          27
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      },
+      {
+        "position": [
+          7,
+          -45,
+          28
+        ],
+        "block": "minecraft:air",
+        "properties": {}
+      }
+    ],
+    "block_snapshot_tick": 120
+  },
+  "input_owner": "unverified_client_inputs",
+  "menu_open": false,
+  "keys": {
+    "right": false,
+    "use_held": false,
+    "back": false,
+    "sneak": false,
+    "forward": false,
+    "sprint": false,
+    "left": false,
+    "jump": false,
+    "attack_held": false
+  },
+  "client_attack_attempts": 0,
+  "yaw_delta": 0,
+  "pitch_delta": 0
+}

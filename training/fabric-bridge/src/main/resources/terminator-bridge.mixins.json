@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "package": "dev.terminator.bridge.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["ClientAttack", "ClientTickMixin", "CombatCrosshair", "IntegratedServerTickMixin", "PlayerJumpMixin", "ServerCriticalHitMixin", "SprintKnockbackMixin", "SwordAttackTelemetryMixin", "PlayerDamageTelemetryMixin", "SprintStateTelemetryMixin", "HeadlessHardwareDetails", "NavigationKeyboard", "NavigationChat", "NavigationHud", "DatasetAttack"],
+  "injectors": {"defaultRequire": 1},
+  "mixins": ["ArenaItemUse"]
+}

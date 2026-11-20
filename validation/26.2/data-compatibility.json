@@ -1,0 +1,18 @@
+{
+  "schema": "terminator_data_compatibility/v1",
+  "target_game": "26.2",
+  "historical_source": "1.21.4",
+  "historical_files_rewritten": false,
+  "historical_trajectory_physics_equivalence": "not_established",
+  "historical_use": "Diagnosis and explicitly reviewed offline datasets; retain source version and behavior provenance.",
+  "native_target_capture": "Available through the passive 26.2 recorder; human captures remain unrated until reviewed.",
+  "automatically_expert": false,
+  "automatically_on_policy_rl_eligible": false,
+  "actor_observations": "Client-visible state only; privileged setup/reset/validation feedback stays separate.",
+  "runtime_reports": [
+    "runtime-validation.json",
+    "native-check-report.json",
+    "client-validation.json"
+  ],
+  "original_one_account_sparring": "1.21.4 launcher and checkpoints retained; neural sparring/controller not migrated by this data port."
+}

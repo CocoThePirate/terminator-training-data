@@ -1,0 +1,1419 @@
+{
+  "schema": "arena_catalog/v1",
+  "kits": {
+    "sword_basic": {
+      "apples": 0,
+      "profile": "sword_v1",
+      "items": [
+        {
+          "slot": 0,
+          "item": "minecraft:diamond_sword",
+          "count": 1
+        }
+      ]
+    },
+    "sword_gapples": {
+      "apples": 3,
+      "profile": "sword_v1",
+      "items": [
+        {
+          "slot": 0,
+          "item": "minecraft:diamond_sword",
+          "count": 1
+        },
+        {
+          "slot": 1,
+          "item": "minecraft:golden_apple",
+          "count": 3
+        }
+      ],
+      "default_mode": "sword"
+    },
+    "uhc_basic": {
+      "apples": 8,
+      "profile": "uhc_v1",
+      "items": [
+        {
+          "slot": 0,
+          "item": "minecraft:diamond_sword",
+          "count": 1
+        },
+        {
+          "slot": 1,
+          "item": "minecraft:golden_apple",
+          "count": 8
+        },
+        {
+          "slot": 2,
+          "item": "minecraft:diamond_axe",
+          "count": 1
+        },
+        {
+          "slot": 3,
+          "item": "minecraft:water_bucket",
+          "count": 1
+        },
+        {
+          "slot": 4,
+          "item": "minecraft:lava_bucket",
+          "count": 1
+        },
+        {
+          "slot": 5,
+          "item": "minecraft:bow",
+          "count": 1
+        },
+        {
+          "slot": 6,
+          "item": "minecraft:crossbow",
+          "count": 1
+        },
+        {
+          "slot": 7,
+          "item": "minecraft:cobblestone",
+          "count": 64
+        },
+        {
+          "slot": 8,
+          "item": "minecraft:water_bucket",
+          "count": 1
+        },
+        {
+          "slot": 9,
+          "item": "minecraft:lava_bucket",
+          "count": 1
+        },
+        {
+          "slot": 10,
+          "item": "minecraft:cobblestone",
+          "count": 64
+        },
+        {
+          "slot": 11,
+          "item": "minecraft:arrow",
+          "count": 64
+        }
+      ],
+      "default_mode": "uhc"
+    },
+    "bow": {
+      "apples": 0,
+      "profile": "bow_v1",
+      "items": [
+        {
+          "slot": 0,
+          "item": "minecraft:bow",
+          "count": 1
+        },
+        {
+          "slot": 1,
+          "item": "minecraft:arrow",
+          "count": 64
+        },
+        {
+          "slot": 2,
+          "item": "minecraft:cooked_beef",
+          "count": 16
+        }
+      ],
+      "armor": [
+        {
+          "slot": 36,
+          "item": "minecraft:leather_boots",
+          "count": 1
+        },
+        {
+          "slot": 37,
+          "item": "minecraft:leather_leggings",
+          "count": 1
+        },
+        {
+          "slot": 38,
+          "item": "minecraft:leather_chestplate",
+          "count": 1
+        },
+        {
+          "slot": 39,
+          "item": "minecraft:leather_helmet",
+          "count": 1
+        }
+      ],
+      "default_mode": "bow"
+    },
+    "crossbow": {
+      "apples": 0,
+      "profile": "crossbow_v1",
+      "items": [
+        {
+          "slot": 0,
+          "item": "minecraft:crossbow",
+          "count": 1
+        },
+        {
+          "slot": 1,
+          "item": "minecraft:arrow",
+          "count": 64
+        },
+        {
+          "slot": 2,
+          "item": "minecraft:iron_sword",
+          "count": 1
+        },
+        {
+          "slot": 3,
+          "item": "minecraft:cooked_beef",
+          "count": 16
+        }
+      ],
+      "armor": [
+        {
+          "slot": 36,
+          "item": "minecraft:iron_boots",
+          "count": 1
+        },
+        {
+          "slot": 37,
+          "item": "minecraft:iron_leggings",
+          "count": 1
+        },
+        {
+          "slot": 38,
+          "item": "minecraft:iron_chestplate",
+          "count": 1
+        },
+        {
+          "slot": 39,
+          "item": "minecraft:iron_helmet",
+          "count": 1
+        }
+      ],
+      "default_mode": "crossbow"
+    },
+    "axe_shield": {
+      "apples": 0,
+      "profile": "axe_shield_v1",
+      "items": [
+        {
+          "slot": 0,
+          "item": "minecraft:diamond_axe",
+          "count": 1
+        },
+        {
+          "slot": 1,
+          "item": "minecraft:shield",
+          "count": 1
+        },
+        {
+          "slot": 2,
+          "item": "minecraft:diamond_sword",
+          "count": 1
+        },
+        {
+          "slot": 3,
+          "item": "minecraft:cooked_beef",
+          "count": 16
+        },
+        {
+          "slot": 40,
+          "item": "minecraft:shield",
+          "count": 1
+        }
+      ],
+      "default_mode": "axe"
+    },
+    "mole": {
+      "apples": 4,
+      "profile": "mole_v1",
+      "items": [
+        {
+          "slot": 0,
+          "item": "minecraft:diamond_sword",
+          "count": 1
+        },
+        {
+          "slot": 1,
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "slot": 2,
+          "item": "minecraft:diamond_pickaxe",
+          "count": 1
+        },
+        {
+          "slot": 3,
+          "item": "minecraft:diamond_shovel",
+          "count": 1
+        },
+        {
+          "slot": 4,
+          "item": "minecraft:cobblestone",
+          "count": 64
+        },
+        {
+          "slot": 5,
+          "item": "minecraft:torch",
+          "count": 64
+        },
+        {
+          "slot": 6,
+          "item": "minecraft:water_bucket",
+          "count": 1
+        },
+        {
+          "slot": 7,
+          "item": "minecraft:cooked_beef",
+          "count": 16
+        }
+      ],
+      "default_mode": "mole"
+    },
+    "fireball_fight": {
+      "apples": 3,
+      "profile": "fireball_fight_v1",
+      "items": [
+        {
+          "slot": 0,
+          "item": "minecraft:iron_sword",
+          "count": 1
+        },
+        {
+          "slot": 1,
+          "item": "minecraft:golden_apple",
+          "count": 3
+        },
+        {
+          "slot": 2,
+          "item": "minecraft:fire_charge",
+          "count": 8
+        },
+        {
+          "slot": 3,
+          "item": "minecraft:white_wool",
+          "count": 64
+        },
+        {
+          "slot": 4,
+          "item": "minecraft:white_wool",
+          "count": 64
+        },
+        {
+          "slot": 5,
+          "item": "minecraft:stone_pickaxe",
+          "count": 1
+        },
+        {
+          "slot": 6,
+          "item": "minecraft:cooked_beef",
+          "count": 16
+        }
+      ],
+      "armor": [
+        {
+          "slot": 36,
+          "item": "minecraft:iron_boots",
+          "count": 1
+        },
+        {
+          "slot": 37,
+          "item": "minecraft:iron_leggings",
+          "count": 1
+        },
+        {
+          "slot": 38,
+          "item": "minecraft:iron_chestplate",
+          "count": 1
+        },
+        {
+          "slot": 39,
+          "item": "minecraft:iron_helmet",
+          "count": 1
+        }
+      ],
+      "mechanics": {
+        "adapter": "local_fireball_v1",
+        "cooldown_ticks": 20,
+        "explosion_power": 1,
+        "launch_speed": 0.6
+      },
+      "default_mode": "fireball_fight"
+    },
+    "bridge": {
+      "apples": 0,
+      "profile": "bridge_v1",
+      "items": [
+        {
+          "slot": 0,
+          "item": "minecraft:iron_sword",
+          "count": 1
+        },
+        {
+          "slot": 1,
+          "item": "minecraft:white_wool",
+          "count": 64
+        },
+        {
+          "slot": 2,
+          "item": "minecraft:white_wool",
+          "count": 64
+        },
+        {
+          "slot": 3,
+          "item": "minecraft:bow",
+          "count": 1
+        },
+        {
+          "slot": 4,
+          "item": "minecraft:arrow",
+          "count": 16
+        },
+        {
+          "slot": 5,
+          "item": "minecraft:cooked_beef",
+          "count": 16
+        }
+      ],
+      "armor": [
+        {
+          "slot": 36,
+          "item": "minecraft:leather_boots",
+          "count": 1
+        },
+        {
+          "slot": 37,
+          "item": "minecraft:leather_leggings",
+          "count": 1
+        },
+        {
+          "slot": 38,
+          "item": "minecraft:leather_chestplate",
+          "count": 1
+        },
+        {
+          "slot": 39,
+          "item": "minecraft:leather_helmet",
+          "count": 1
+        }
+      ],
+      "default_mode": "bridge"
+    },
+    "bucket": {
+      "apples": 3,
+      "profile": "bucket_v1",
+      "items": [
+        {
+          "slot": 0,
+          "item": "minecraft:diamond_sword",
+          "count": 1
+        },
+        {
+          "slot": 1,
+          "item": "minecraft:golden_apple",
+          "count": 3
+        },
+        {
+          "slot": 2,
+          "item": "minecraft:water_bucket",
+          "count": 1
+        },
+        {
+          "slot": 3,
+          "item": "minecraft:lava_bucket",
+          "count": 1
+        },
+        {
+          "slot": 4,
+          "item": "minecraft:cobblestone",
+          "count": 64
+        },
+        {
+          "slot": 5,
+          "item": "minecraft:diamond_pickaxe",
+          "count": 1
+        }
+      ],
+      "default_mode": "bucket"
+    },
+    "sumo": {
+      "apples": 0,
+      "profile": "sumo_v1",
+      "items": [],
+      "armor": [],
+      "default_mode": "sumo"
+    }
+  },
+  "armor": [
+    {
+      "slot": 36,
+      "item": "minecraft:diamond_boots",
+      "count": 1
+    },
+    {
+      "slot": 37,
+      "item": "minecraft:diamond_leggings",
+      "count": 1
+    },
+    {
+      "slot": 38,
+      "item": "minecraft:diamond_chestplate",
+      "count": 1
+    },
+    {
+      "slot": 39,
+      "item": "minecraft:diamond_helmet",
+      "count": 1
+    }
+  ],
+  "maps": {
+    "open_flat": {
+      "split": "training",
+      "floor": "minecraft:grass_block",
+      "boxes": []
+    },
+    "four_pillars": {
+      "split": "training",
+      "floor": "minecraft:stone",
+      "boxes": [
+        {
+          "min": [
+            4,
+            0,
+            4
+          ],
+          "max": [
+            4,
+            2,
+            4
+          ],
+          "block": "minecraft:stone"
+        },
+        {
+          "min": [
+            12,
+            0,
+            4
+          ],
+          "max": [
+            12,
+            2,
+            4
+          ],
+          "block": "minecraft:stone"
+        },
+        {
+          "min": [
+            4,
+            0,
+            12
+          ],
+          "max": [
+            4,
+            2,
+            12
+          ],
+          "block": "minecraft:stone"
+        },
+        {
+          "min": [
+            12,
+            0,
+            12
+          ],
+          "max": [
+            12,
+            2,
+            12
+          ],
+          "block": "minecraft:stone"
+        }
+      ]
+    },
+    "low_steps": {
+      "split": "validation",
+      "floor": "minecraft:grass_block",
+      "boxes": [
+        {
+          "min": [
+            5,
+            0,
+            4
+          ],
+          "max": [
+            11,
+            0,
+            6
+          ],
+          "block": "minecraft:stone"
+        },
+        {
+          "min": [
+            7,
+            1,
+            4
+          ],
+          "max": [
+            9,
+            1,
+            5
+          ],
+          "block": "minecraft:stone"
+        }
+      ]
+    },
+    "offset_cover": {
+      "split": "evaluation",
+      "floor": "minecraft:stone",
+      "boxes": [
+        {
+          "min": [
+            6,
+            0,
+            3
+          ],
+          "max": [
+            8,
+            2,
+            5
+          ],
+          "block": "minecraft:stone"
+        },
+        {
+          "min": [
+            10,
+            0,
+            11
+          ],
+          "max": [
+            13,
+            1,
+            12
+          ],
+          "block": "minecraft:cobblestone"
+        }
+      ]
+    },
+    "bow_range": {
+      "split": "training",
+      "version": 2,
+      "size": 49,
+      "feet_y": -48,
+      "void": false,
+      "floor": "minecraft:stone",
+      "spawns": [
+        [
+          3.5,
+          24.5
+        ],
+        [
+          45.5,
+          24.5
+        ]
+      ],
+      "boxes": [
+        {
+          "min": [
+            16,
+            0,
+            8
+          ],
+          "max": [
+            17,
+            2,
+            14
+          ],
+          "block": "minecraft:stone"
+        },
+        {
+          "min": [
+            31,
+            0,
+            34
+          ],
+          "max": [
+            32,
+            2,
+            40
+          ],
+          "block": "minecraft:stone"
+        }
+      ]
+    },
+    "bow_cover": {
+      "split": "evaluation",
+      "version": 2,
+      "size": 49,
+      "feet_y": -48,
+      "void": false,
+      "floor": "minecraft:stone",
+      "spawns": [
+        [
+          3.5,
+          24.5
+        ],
+        [
+          45.5,
+          24.5
+        ]
+      ],
+      "boxes": [
+        {
+          "min": [
+            12,
+            0,
+            5
+          ],
+          "max": [
+            14,
+            3,
+            16
+          ],
+          "block": "minecraft:stone"
+        },
+        {
+          "min": [
+            34,
+            0,
+            32
+          ],
+          "max": [
+            36,
+            3,
+            43
+          ],
+          "block": "minecraft:stone"
+        },
+        {
+          "min": [
+            23,
+            0,
+            8
+          ],
+          "max": [
+            25,
+            1,
+            12
+          ],
+          "block": "minecraft:stone"
+        }
+      ]
+    },
+    "axe_court": {
+      "split": "training",
+      "version": 2,
+      "size": 25,
+      "feet_y": -48,
+      "void": false,
+      "floor": "minecraft:stone",
+      "spawns": [
+        [
+          3.5,
+          12.5
+        ],
+        [
+          21.5,
+          12.5
+        ]
+      ],
+      "boxes": [
+        {
+          "min": [
+            7,
+            0,
+            5
+          ],
+          "max": [
+            8,
+            1,
+            8
+          ],
+          "block": "minecraft:stone"
+        },
+        {
+          "min": [
+            16,
+            0,
+            16
+          ],
+          "max": [
+            17,
+            1,
+            19
+          ],
+          "block": "minecraft:stone"
+        }
+      ]
+    },
+    "mole_tunnels": {
+      "split": "training",
+      "version": 2,
+      "size": 33,
+      "feet_y": -48,
+      "void": false,
+      "floor": "minecraft:stone",
+      "spawns": [
+        [
+          3.5,
+          16.5
+        ],
+        [
+          29.5,
+          16.5
+        ]
+      ],
+      "boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            32,
+            6,
+            32
+          ],
+          "block": "minecraft:stone"
+        },
+        {
+          "min": [
+            1,
+            0,
+            15
+          ],
+          "max": [
+            31,
+            1,
+            17
+          ],
+          "block": "minecraft:air"
+        },
+        {
+          "min": [
+            7,
+            0,
+            1
+          ],
+          "max": [
+            9,
+            1,
+            31
+          ],
+          "block": "minecraft:air"
+        },
+        {
+          "min": [
+            23,
+            0,
+            1
+          ],
+          "max": [
+            25,
+            1,
+            31
+          ],
+          "block": "minecraft:air"
+        },
+        {
+          "min": [
+            1,
+            0,
+            7
+          ],
+          "max": [
+            31,
+            1,
+            9
+          ],
+          "block": "minecraft:air"
+        },
+        {
+          "min": [
+            1,
+            0,
+            23
+          ],
+          "max": [
+            31,
+            1,
+            25
+          ],
+          "block": "minecraft:air"
+        },
+        {
+          "min": [
+            3,
+            2,
+            16
+          ],
+          "max": [
+            3,
+            2,
+            16
+          ],
+          "block": "minecraft:glowstone"
+        },
+        {
+          "min": [
+            8,
+            2,
+            16
+          ],
+          "max": [
+            8,
+            2,
+            16
+          ],
+          "block": "minecraft:glowstone"
+        },
+        {
+          "min": [
+            24,
+            2,
+            16
+          ],
+          "max": [
+            24,
+            2,
+            16
+          ],
+          "block": "minecraft:glowstone"
+        },
+        {
+          "min": [
+            29,
+            2,
+            16
+          ],
+          "max": [
+            29,
+            2,
+            16
+          ],
+          "block": "minecraft:glowstone"
+        }
+      ]
+    },
+    "mole_caverns": {
+      "split": "validation",
+      "version": 2,
+      "size": 33,
+      "feet_y": -48,
+      "void": false,
+      "floor": "minecraft:stone",
+      "spawns": [
+        [
+          3.5,
+          16.5
+        ],
+        [
+          29.5,
+          16.5
+        ]
+      ],
+      "boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            32,
+            6,
+            32
+          ],
+          "block": "minecraft:stone"
+        },
+        {
+          "min": [
+            1,
+            0,
+            15
+          ],
+          "max": [
+            31,
+            1,
+            17
+          ],
+          "block": "minecraft:air"
+        },
+        {
+          "min": [
+            4,
+            0,
+            4
+          ],
+          "max": [
+            12,
+            3,
+            12
+          ],
+          "block": "minecraft:air"
+        },
+        {
+          "min": [
+            20,
+            0,
+            20
+          ],
+          "max": [
+            28,
+            3,
+            28
+          ],
+          "block": "minecraft:air"
+        },
+        {
+          "min": [
+            7,
+            0,
+            10
+          ],
+          "max": [
+            9,
+            1,
+            17
+          ],
+          "block": "minecraft:air"
+        },
+        {
+          "min": [
+            23,
+            0,
+            15
+          ],
+          "max": [
+            25,
+            1,
+            23
+          ],
+          "block": "minecraft:air"
+        },
+        {
+          "min": [
+            3,
+            2,
+            16
+          ],
+          "max": [
+            3,
+            2,
+            16
+          ],
+          "block": "minecraft:glowstone"
+        },
+        {
+          "min": [
+            8,
+            2,
+            16
+          ],
+          "max": [
+            8,
+            2,
+            16
+          ],
+          "block": "minecraft:glowstone"
+        },
+        {
+          "min": [
+            24,
+            2,
+            16
+          ],
+          "max": [
+            24,
+            2,
+            16
+          ],
+          "block": "minecraft:glowstone"
+        },
+        {
+          "min": [
+            29,
+            2,
+            16
+          ],
+          "max": [
+            29,
+            2,
+            16
+          ],
+          "block": "minecraft:glowstone"
+        }
+      ]
+    },
+    "island_bridge": {
+      "split": "training",
+      "version": 2,
+      "size": 41,
+      "feet_y": -48,
+      "void": true,
+      "floor": "minecraft:air",
+      "spawns": [
+        [
+          5.5,
+          20.5
+        ],
+        [
+          35.5,
+          20.5
+        ]
+      ],
+      "boxes": [
+        {
+          "min": [
+            1,
+            -3,
+            14
+          ],
+          "max": [
+            10,
+            -1,
+            26
+          ],
+          "block": "minecraft:white_wool"
+        },
+        {
+          "min": [
+            30,
+            -3,
+            14
+          ],
+          "max": [
+            39,
+            -1,
+            26
+          ],
+          "block": "minecraft:white_wool"
+        },
+        {
+          "min": [
+            11,
+            -1,
+            20
+          ],
+          "max": [
+            29,
+            -1,
+            20
+          ],
+          "block": "minecraft:white_wool"
+        }
+      ]
+    },
+    "island_offsets": {
+      "split": "evaluation",
+      "version": 2,
+      "size": 41,
+      "feet_y": -48,
+      "void": true,
+      "floor": "minecraft:air",
+      "spawns": [
+        [
+          5.5,
+          20.5
+        ],
+        [
+          35.5,
+          20.5
+        ]
+      ],
+      "boxes": [
+        {
+          "min": [
+            1,
+            -3,
+            14
+          ],
+          "max": [
+            10,
+            -1,
+            26
+          ],
+          "block": "minecraft:white_wool"
+        },
+        {
+          "min": [
+            30,
+            -3,
+            14
+          ],
+          "max": [
+            39,
+            -1,
+            26
+          ],
+          "block": "minecraft:white_wool"
+        },
+        {
+          "min": [
+            11,
+            -1,
+            20
+          ],
+          "max": [
+            18,
+            -1,
+            20
+          ],
+          "block": "minecraft:white_wool"
+        },
+        {
+          "min": [
+            18,
+            -1,
+            20
+          ],
+          "max": [
+            18,
+            -1,
+            23
+          ],
+          "block": "minecraft:white_wool"
+        },
+        {
+          "min": [
+            18,
+            -1,
+            23
+          ],
+          "max": [
+            29,
+            -1,
+            23
+          ],
+          "block": "minecraft:white_wool"
+        }
+      ]
+    },
+    "bucket_terraces": {
+      "split": "training",
+      "version": 2,
+      "size": 25,
+      "feet_y": -48,
+      "void": false,
+      "floor": "minecraft:stone",
+      "spawns": [
+        [
+          3.5,
+          12.5
+        ],
+        [
+          21.5,
+          12.5
+        ]
+      ],
+      "boxes": [
+        {
+          "min": [
+            6,
+            0,
+            4
+          ],
+          "max": [
+            18,
+            0,
+            7
+          ],
+          "block": "minecraft:stone"
+        },
+        {
+          "min": [
+            9,
+            1,
+            4
+          ],
+          "max": [
+            15,
+            1,
+            6
+          ],
+          "block": "minecraft:stone"
+        },
+        {
+          "min": [
+            7,
+            0,
+            18
+          ],
+          "max": [
+            17,
+            1,
+            20
+          ],
+          "block": "minecraft:stone"
+        }
+      ]
+    },
+    "sumo_ring": {
+      "split": "training",
+      "version": 2,
+      "size": 21,
+      "feet_y": -48,
+      "void": true,
+      "floor": "minecraft:air",
+      "spawns": [
+        [
+          7.5,
+          10.5
+        ],
+        [
+          13.5,
+          10.5
+        ]
+      ],
+      "boxes": [
+        {
+          "min": [
+            3,
+            -3,
+            3
+          ],
+          "max": [
+            17,
+            -1,
+            17
+          ],
+          "block": "minecraft:stone"
+        }
+      ]
+    }
+  },
+  "modes": {
+    "sword": {
+      "kit": "sword_gapples",
+      "map": "open_flat",
+      "maps": [
+        "open_flat"
+      ],
+      "collection_tasks": [
+        "spacing",
+        "healing_under_pressure",
+        "strafe_and_crit"
+      ],
+      "notes": "Vanilla Java 1.21.4 mechanics."
+    },
+    "uhc": {
+      "kit": "uhc_basic",
+      "map": "four_pillars",
+      "maps": [
+        "four_pillars"
+      ],
+      "collection_tasks": [
+        "mixed_equipment",
+        "healing_and_cover",
+        "inventory_management"
+      ],
+      "notes": "Vanilla Java 1.21.4 mechanics."
+    },
+    "bow": {
+      "kit": "bow",
+      "map": "bow_range",
+      "maps": [
+        "bow_range",
+        "bow_cover"
+      ],
+      "collection_tasks": [
+        "draw_and_release",
+        "lead_moving_target",
+        "dodge_and_cover"
+      ],
+      "notes": "Vanilla Java 1.21.4 mechanics."
+    },
+    "crossbow": {
+      "kit": "crossbow",
+      "map": "bow_range",
+      "maps": [
+        "bow_range",
+        "bow_cover"
+      ],
+      "collection_tasks": [
+        "load_and_release",
+        "reload_under_cover",
+        "weapon_switch"
+      ],
+      "notes": "Vanilla Java 1.21.4 mechanics."
+    },
+    "axe": {
+      "kit": "axe_shield",
+      "map": "axe_court",
+      "maps": [
+        "axe_court"
+      ],
+      "collection_tasks": [
+        "shield_pressure",
+        "axe_cooldown",
+        "axe_sword_switch"
+      ],
+      "notes": "Vanilla Java 1.21.4 mechanics."
+    },
+    "mole": {
+      "kit": "mole",
+      "map": "mole_tunnels",
+      "maps": [
+        "mole_tunnels",
+        "mole_caverns"
+      ],
+      "collection_tasks": [
+        "mine_route",
+        "fight_in_tunnel",
+        "block_and_escape"
+      ],
+      "notes": "Underground tunneling combat; not a named server ruleset."
+    },
+    "fireball_fight": {
+      "kit": "fireball_fight",
+      "map": "island_bridge",
+      "maps": [
+        "island_bridge",
+        "island_offsets"
+      ],
+      "collection_tasks": [
+        "launch_and_dodge",
+        "fireball_jump",
+        "bridge_and_recover"
+      ],
+      "notes": "Local 1.21.4 variant: right-click fire charges launch vanilla fireballs; not a replica of server-specific knockback, beds or scoring."
+    },
+    "bridge": {
+      "kit": "bridge",
+      "map": "island_bridge",
+      "maps": [
+        "island_bridge",
+        "island_offsets"
+      ],
+      "collection_tasks": [
+        "bridge_and_clutch",
+        "knockback_and_recover",
+        "ranged_pressure"
+      ],
+      "notes": "Vanilla bridge/void practice; no goal or bed scoring."
+    },
+    "bucket": {
+      "kit": "bucket",
+      "map": "bucket_terraces",
+      "maps": [
+        "bucket_terraces"
+      ],
+      "collection_tasks": [
+        "place_and_retrieve_water",
+        "lava_pressure",
+        "extinguish_and_escape"
+      ],
+      "notes": "Vanilla Java 1.21.4 mechanics."
+    },
+    "sumo": {
+      "kit": "sumo",
+      "map": "sumo_ring",
+      "maps": [
+        "sumo_ring"
+      ],
+      "collection_tasks": [
+        "unarmed_knockback",
+        "edge_recovery"
+      ],
+      "notes": "Unarmed Java 1.21.4 knockback on a void ring; no custom sumo knockback or scoring."
+    }
+  }
+}

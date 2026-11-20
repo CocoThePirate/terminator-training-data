@@ -1,0 +1,393 @@
+{
+  "schema": "terminator_target_runtime_validation/v1",
+  "minecraft": "26.2",
+  "passed": true,
+  "native_checks": {
+    "schema": "terminator_native_port_check/v1",
+    "minecraft": "26.2",
+    "passed": true,
+    "kits_verified": [
+      "sword_basic",
+      "sword_gapples",
+      "uhc_basic",
+      "bow",
+      "crossbow",
+      "axe_shield",
+      "mole",
+      "fireball_fight",
+      "bridge",
+      "bucket",
+      "sumo"
+    ],
+    "reset_health_food_saturation_verified": true,
+    "fireball_use_cooldown_and_scope_verified": true,
+    "human_gameplay_test": false
+  },
+  "maps": [
+    {
+      "key": "open_flat_0",
+      "passed": true,
+      "block_checks": 806,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "open_flat_1",
+      "passed": true,
+      "block_checks": 806,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "open_flat_2",
+      "passed": true,
+      "block_checks": 806,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "open_flat_3",
+      "passed": true,
+      "block_checks": 806,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "four_pillars_0",
+      "passed": true,
+      "block_checks": 818,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "four_pillars_1",
+      "passed": true,
+      "block_checks": 818,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "four_pillars_2",
+      "passed": true,
+      "block_checks": 818,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "four_pillars_3",
+      "passed": true,
+      "block_checks": 818,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "low_steps_0",
+      "passed": true,
+      "block_checks": 816,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "low_steps_1",
+      "passed": true,
+      "block_checks": 816,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "low_steps_2",
+      "passed": true,
+      "block_checks": 816,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "low_steps_3",
+      "passed": true,
+      "block_checks": 816,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "offset_cover_0",
+      "passed": true,
+      "block_checks": 824,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "offset_cover_1",
+      "passed": true,
+      "block_checks": 824,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "offset_cover_2",
+      "passed": true,
+      "block_checks": 824,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "offset_cover_3",
+      "passed": true,
+      "block_checks": 823,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "bow_range_0",
+      "passed": true,
+      "block_checks": 5340,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "bow_range_1",
+      "passed": true,
+      "block_checks": 5339,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "bow_range_2",
+      "passed": true,
+      "block_checks": 5339,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "bow_range_3",
+      "passed": true,
+      "block_checks": 5340,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "bow_cover_0",
+      "passed": true,
+      "block_checks": 5349,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "bow_cover_1",
+      "passed": true,
+      "block_checks": 5349,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "bow_cover_2",
+      "passed": true,
+      "block_checks": 5349,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "bow_cover_3",
+      "passed": true,
+      "block_checks": 5349,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "axe_court_0",
+      "passed": true,
+      "block_checks": 1526,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "axe_court_1",
+      "passed": true,
+      "block_checks": 1527,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "axe_court_2",
+      "passed": true,
+      "block_checks": 1527,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "axe_court_3",
+      "passed": true,
+      "block_checks": 1526,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "mole_tunnels_0",
+      "passed": true,
+      "block_checks": 2628,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "mole_tunnels_1",
+      "passed": true,
+      "block_checks": 2628,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "mole_tunnels_2",
+      "passed": true,
+      "block_checks": 2628,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "mole_tunnels_3",
+      "passed": true,
+      "block_checks": 2628,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "mole_caverns_0",
+      "passed": true,
+      "block_checks": 2628,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "mole_caverns_1",
+      "passed": true,
+      "block_checks": 2628,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "mole_caverns_2",
+      "passed": true,
+      "block_checks": 2628,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "mole_caverns_3",
+      "passed": true,
+      "block_checks": 2628,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "island_bridge_0",
+      "passed": true,
+      "block_checks": 3828,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "island_bridge_1",
+      "passed": true,
+      "block_checks": 3828,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "island_bridge_2",
+      "passed": true,
+      "block_checks": 3828,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "island_bridge_3",
+      "passed": true,
+      "block_checks": 3828,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "island_offsets_0",
+      "passed": true,
+      "block_checks": 3828,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "island_offsets_1",
+      "passed": true,
+      "block_checks": 3828,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "island_offsets_2",
+      "passed": true,
+      "block_checks": 3828,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "island_offsets_3",
+      "passed": true,
+      "block_checks": 3828,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "bucket_terraces_0",
+      "passed": true,
+      "block_checks": 1528,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "bucket_terraces_1",
+      "passed": true,
+      "block_checks": 1528,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "bucket_terraces_2",
+      "passed": true,
+      "block_checks": 1528,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "bucket_terraces_3",
+      "passed": true,
+      "block_checks": 1528,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "sumo_ring_0",
+      "passed": true,
+      "block_checks": 1183,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "sumo_ring_1",
+      "passed": true,
+      "block_checks": 1183,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "sumo_ring_2",
+      "passed": true,
+      "block_checks": 1183,
+      "high_block_reset": true,
+      "projectile_reset": true
+    },
+    {
+      "key": "sumo_ring_3",
+      "passed": true,
+      "block_checks": 1183,
+      "high_block_reset": true,
+      "projectile_reset": true
+    }
+  ],
+  "human_gameplay_test": false
+}

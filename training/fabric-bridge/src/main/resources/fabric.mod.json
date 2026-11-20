@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "terminator_bridge",
+  "version": "0.1.0",
+  "name": "Terminator Training Bridge",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.terminator.bridge.TrainingBridge", "dev.terminator.bridge.NavigationClient", "dev.terminator.bridge.DatasetClient"]
+  },
+  "mixins": ["terminator-bridge.mixins.json"],
+  "depends": {
+    "fabricloader": "0.16.10",
+    "fabric-networking-api-v1": "4.4.0+db5e668204",
+    "minecraft": "1.21.4",
+    "java": ">=21"
+  }
+}

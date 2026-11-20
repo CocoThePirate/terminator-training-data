@@ -1,0 +1,21 @@
+{
+  "schema": "terminator_native_port_check/v1",
+  "minecraft": "26.2",
+  "passed": true,
+  "kits_verified": [
+    "sword_basic",
+    "sword_gapples",
+    "uhc_basic",
+    "bow",
+    "crossbow",
+    "axe_shield",
+    "mole",
+    "fireball_fight",
+    "bridge",
+    "bucket",
+    "sumo"
+  ],
+  "reset_health_food_saturation_verified": true,
+  "fireball_use_cooldown_and_scope_verified": true,
+  "human_gameplay_test": false
+}

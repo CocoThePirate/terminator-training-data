@@ -1,0 +1,32 @@
+{
+  "schema": "terminator_native_client_validation/v1",
+  "minecraft": "26.2",
+  "passed": true,
+  "helper_sha256": "bee2cc8b363a2413f26b4732025ba78cc386446c4796077577ddbe0abd92a90e",
+  "captures": [
+    {
+      "schema": "client_dataset_inspection/v1",
+      "directory": "[redacted_local_path]",
+      "label": "native_26_2_smoke",
+      "data_kind": "infrastructure_test",
+      "mode": "mole",
+      "collection_task": "unassigned",
+      "effective_split": "training",
+      "geometry_sha256": "d4b017347d858ed2404bb5ad20639b2fa40e1a56635e6bc34476358220910f43",
+      "frames": 60,
+      "menu_frames": 0,
+      "block_snapshots": 12,
+      "tick_gaps": 0,
+      "attack_attempts": 0,
+      "input_owners": {
+        "unverified_client_inputs": 60
+      },
+      "structurally_complete": true,
+      "expert_demonstration": false,
+      "on_policy_rl_eligible": false,
+      "note": "Raw capture only. Quality, action alignment and outcomes require review before training."
+    }
+  ],
+  "session": "[redacted_local_path]",
+  "human_gameplay_test": false
+}

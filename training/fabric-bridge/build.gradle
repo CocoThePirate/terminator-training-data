@@ -1,0 +1,94 @@
+plugins {
+    id 'fabric-loom' version '1.9.2'
+}
+
+group = 'dev.terminator'
+version = '0.1.0'
+
+loom {
+    runs {
+        client {
+            if (providers.gradleProperty('navigationJar').isPresent()) {
+                // Loom 1.9 prepends projectDir even to an absolute runDir on
+                // Windows. Convert explicitly to a project-relative directory.
+                runDir project.projectDir.toPath().relativize(file(providers.gradleProperty('navigationRunDir').get()).toPath()).toString()
+                vmArg '-Dterminator.navigation=true'
+                if(providers.gradleProperty('datasetMode').isPresent()) {
+                    vmArg '-Dterminator.dataset=true'
+                    if(providers.gradleProperty('arenaSetup').isPresent())vmArg "-Dterminator.dataset.setup=${providers.gradleProperty('arenaSetup').get()}"
+                    if(providers.gradleProperty('datasetOutput').isPresent())vmArg "-Dterminator.dataset.output=${providers.gradleProperty('datasetOutput').get()}"
+                    if(providers.gradleProperty('datasetParticipant').isPresent())vmArg "-Dterminator.dataset.participant=${providers.gradleProperty('datasetParticipant').get()}"
+                    if(providers.gradleProperty('datasetParticipantSplit').isPresent())vmArg "-Dterminator.dataset.participantSplit=${providers.gradleProperty('datasetParticipantSplit').get()}"
+                }
+                if (providers.gradleProperty('policyWorker').isPresent()) {
+                    vmArg "-Dterminator.policy.worker=${providers.gradleProperty('policyWorker').get()}"
+                    vmArg "-Dterminator.policy.checkpoint=${providers.gradleProperty('policyCheckpoint').get()}"
+                }
+                if (providers.gradleProperty('navigationUsername').isPresent()) {
+                    programArgs '--username', providers.gradleProperty('navigationUsername').get()
+                }
+                if (providers.gradleProperty('navigationConnectPort').isPresent()) {
+                    programArgs '--quickPlayMultiplayer', "127.0.0.1:${providers.gradleProperty('navigationConnectPort').get()}"
+                }
+                if (providers.gradleProperty('navigationDemo').isPresent()) {
+                    vmArg '-Dterminator.navigation.demo=true'
+                }
+                if (providers.gradleProperty('navigationTest').isPresent()) {
+                    vmArg '-Dterminator.navigation.test=true'
+                }
+            }
+            if (providers.gradleProperty('bridgePort').isPresent()) {
+                vmArg "-Dterminator.bridge.port=${providers.gradleProperty('bridgePort').get()}"
+            }
+            if (providers.gradleProperty('duelHost').isPresent()) {
+                programArgs '--username', 'Terminator'
+            }
+            if (providers.gradleProperty('headlessAgent').isPresent()) {
+                vmArg "-javaagent:${file(providers.gradleProperty('headlessAgent').get()).absolutePath}"
+                vmArg '-Djoml.nounsafe=true'
+                vmArg '-Dterminator.headless.skipHardwareDetails=true'
+            }
+        }
+        duelGuest {
+            client()
+            runDir 'run-guest'
+            programArgs '--username', 'DuelGuest', '--quickPlayMultiplayer',
+                    "127.0.0.1:${providers.gradleProperty('duelGamePort').getOrElse('25568')}"
+            if (providers.gradleProperty('bridgePort').isPresent()) {
+                vmArg "-Dterminator.bridge.port=${providers.gradleProperty('bridgePort').get()}"
+            }
+            if (providers.gradleProperty('headlessAgent').isPresent()) {
+                vmArg "-javaagent:${file(providers.gradleProperty('headlessAgent').get()).absolutePath}"
+                vmArg '-Djoml.nounsafe=true'
+                vmArg '-Dterminator.headless.skipHardwareDetails=true'
+            }
+        }
+    }
+}
+
+dependencies {
+    minecraft 'com.mojang:minecraft:1.21.4'
+    mappings 'net.fabricmc:yarn:1.21.4+build.8:v2'
+    modImplementation 'net.fabricmc:fabric-loader:0.16.10'
+    modImplementation 'net.fabricmc.fabric-api:fabric-networking-api-v1:4.4.0+db5e668204'
+    if (providers.gradleProperty('navigationJar').isPresent()) {
+        modRuntimeOnly files(providers.gradleProperty('navigationJar').get())
+        // Loom's development remap does not put this non-mod nested JAR on the
+        // runtime classpath. Use the copy bundled in the checksum-pinned artifact.
+        runtimeOnly files(zipTree(file(providers.gradleProperty('navigationJar').get())).matching {
+            include 'META-INF/jars/nether-pathfinder-1.4.1.jar'
+        })
+    }
+    if (providers.gradleProperty('headlessAgent').isPresent()) {
+        runtimeOnly files(providers.gradleProperty('headlessAgent').get())
+    }
+}
+
+tasks.named('wrapper') {
+    gradleVersion = '8.12.1'
+    distributionSha256Sum = '8d97a97984f6cbd2b85fe4c60a743440a347544bf18818048e611f5288d46c94'
+}
+
+java {
+    toolchain.languageVersion = JavaLanguageVersion.of(21)
+}

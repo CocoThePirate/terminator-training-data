@@ -1,0 +1,13 @@
+name: Validate scenarios and data tooling
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  node-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test training/tools/arena_scenarios.test.cjs training/tools/data_port.test.cjs training/tools/prepare_public_training_data.test.cjs
