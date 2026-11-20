@@ -36,6 +36,9 @@ The extracted `manifest.json` maps published content objects to their relative
 source aliases, categories, source game versions and split metadata. Materializing
 restores readable folders, including adjacent session metadata and JSONL files.
 An optional final argument, `26.2` or `1.21.4`, selects one source version.
+The Release also includes the compiled 26.2 scenario/data-pack ZIP and the
+recorder/helper JAR. The ZIP contains the generated functions and all 60 setup
+definitions, so using those files does not require regenerating them locally.
 
 **This is an unreviewed experience archive, not an expert imitation dataset.**
 A bot fighting a human does not record that human's control inputs. Infrastructure

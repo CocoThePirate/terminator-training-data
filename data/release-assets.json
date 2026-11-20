@@ -8,6 +8,12 @@
       "url": "https://github.com/CocoThePirate/terminator-training-data/releases/download/v0.1.0/terminator-training-data-v0.1.0.tar.gz"
     },
     {
+      "name": "terminator-scenarios-26.2-v0.1.0.zip",
+      "bytes": 923722,
+      "sha256": "f32d3742f9f02e733e2830d3213c541c71974a6ae86f8342f1e56ef936d68849",
+      "url": "https://github.com/CocoThePirate/terminator-training-data/releases/download/v0.1.0/terminator-scenarios-26.2-v0.1.0.zip"
+    },
+    {
       "name": "terminator-arena-26.2.jar",
       "bytes": 25652,
       "sha256": "bee2cc8b363a2413f26b4732025ba78cc386446c4796077577ddbe0abd92a90e",
